@@ -5,4 +5,4 @@ shell.run("wget", "https://raw.githubusercontent.com/Meow-git-hub/tank-game/refs
 print("Installing allLevels.txt")
 shell.run("wget", "https://raw.githubusercontent.com/Meow-git-hub/tank-game/refs/heads/main/allLevels.txt", "allLevels.txt")
 print("Done!")
-os.run("exit")
+shell.run("exit")
